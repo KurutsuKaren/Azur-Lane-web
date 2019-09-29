@@ -12,4 +12,15 @@ At the moment I'm using this packages:
 - [nedb](https://github.com/louischatriot/nedb) as the database
 
 ## To do
+
 - [ ] Fill the ships database
+- [ ] Make the website look dope
+
+## Bored and don't know what to do with your life?
+
+If you are good at web design or want to give a try, hit me up!
+
+#### Contact info
+
+[Twitter](https://twitter.com/josufh_) <br />
+E-mail: kurutsukarenal@gmail.com
