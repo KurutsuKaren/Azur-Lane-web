@@ -1,20 +1,64 @@
-{"id":"1","name":"Universal Bullin","type":"Destroyer","rarity":"Elite","nation":"Universal","_id":"P2bJ9s2RyvU11YIf"}
-{"id":"2","name":"Trial Bullin MKII","type":"Destroyer","rarity":"Super Rare","nation":"Universal","_id":"p5hjS1J1mzsvS22r"}
-{"id":"4","name":"Dewey","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"uAhyZHdIbUp2bHNb"}
-{"id":"5","name":"Cassin","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"BbeUXZxxnGhOxCCv"}
-{"id":"6","name":"Downes","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"UAc5Sf20kupNUqAa"}
-{"id":"7","name":"Gridley","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"1o9JJiTabgG0M4pb"}
 {"id":"8","name":"Craven","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"0NpFaC6iYU1PXV7y"}
-{"id":"9","name":"McCall","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"7fkSP4dF18peTVoz"}
-{"id":"10","name":"Maury","type":"Destroyer","rarity":"Elite","nation":"Eagle Union","_id":"U4bGPhmyS3AwNhDP"}
+{"id":"7","name":"Gridley","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"1o9JJiTabgG0M4pb"}
 {"id":"11","name":"Fletcher","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"2SgBNnHrFQEncqb5"}
+{"id":"9","name":"McCall","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"7fkSP4dF18peTVoz"}
+{"id":"5","name":"Cassin","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"BbeUXZxxnGhOxCCv"}
+{"id":"27","name":"Hammann","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"HjnFJDEm2eqHT3oO"}
+{"id":"1","name":"Universal Bullin","type":"Destroyer","rarity":"Elite","nation":"Universal","_id":"P2bJ9s2RyvU11YIf"}
 {"id":"13","name":"Charles Ausburne","type":"Destroyer","rarity":"Elite","nation":"Eagle Union","_id":"PMJg8uFRFOdmAgkw"}
 {"id":"14","name":"Thatcher","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"QSF45cRwrMPS89BF"}
+{"id":"19","name":"Laffey","type":"Destroyer","rarity":"Elite","nation":"Eagle Union","_id":"T334qvQ5mJcwWwlk"}
+{"id":"10","name":"Maury","type":"Destroyer","rarity":"Elite","nation":"Eagle Union","_id":"U4bGPhmyS3AwNhDP"}
+{"id":"6","name":"Downes","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"UAc5Sf20kupNUqAa"}
+{"id":"18","name":"Benson","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"Ud2gXfBwkVXz6UhM"}
 {"id":"15","name":"Aulick","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"efK3NRt6XXBu2MmT"}
+{"id":"26","name":"Sims","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"gH36wPgpnMwNkwZA"}
+{"id":"2","name":"Trial Bullin MKII","type":"Destroyer","rarity":"Super Rare","nation":"Universal","_id":"p5hjS1J1mzsvS22r"}
+{"id":"28","name":"Eldridge","type":"Destroyer","rarity":"Super Rare","nation":"Eagle Union","_id":"qFtc1yNKoKTOaKAJ"}
+{"id":"4","name":"Dewey","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"uAhyZHdIbUp2bHNb"}
 {"id":"16","name":"Foote","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"vSayGoarJVq6HjPd"}
 {"id":"17","name":"Spence","type":"Destroyer","rarity":"Normal","nation":"Eagle Union","_id":"yVReh1qIfQkmjzot"}
-{"id":"18","name":"Benson","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"Ud2gXfBwkVXz6UhM"}
-{"id":"19","name":"Laffey","type":"Destroyer","rarity":"Elite","nation":"Eagle Union","_id":"T334qvQ5mJcwWwlk"}
-{"id":"26","name":"Sims","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"gH36wPgpnMwNkwZA"}
-{"id":"27","name":"Hammann","type":"Destroyer","rarity":"Rare","nation":"Eagle Union","_id":"HjnFJDEm2eqHT3oO"}
-{"id":"28","name":"Eldridge","type":"Destroyer","rarity":"Super Rare","nation":"Eagle Union","_id":"qFtc1yNKoKTOaKAJ"}
+{"id":"29","name":"Omaha","type":"Light Cruiser","rarity":"Normal","nation":"Eagle Union","_id":"poRDFjVtycX6UaTD"}
+{"id":"30","name":"Raleigh","type":"Light Cruiser","rarity":"Normal","nation":"Eagle Union","_id":"8jGewHV7G17ONPhr"}
+{"id":"31","name":"Brooklyn","type":"Light Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"RPTbLrTfg0UGW17Q"}
+{"id":"32","name":"Phoneix","type":"Light Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"AIatCKVMCHUNaq1e"}
+{"id":"33","name":"Helena","type":"Light Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"NfQGHdSSqyA3jArr"}
+{"id":"34","name":"Atlanta","type":"Light Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"F5zyOvO3qTXpT82z"}
+{"id":"35","name":"Juneau","type":"Light Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"dF9fMZbUBHXAZx4A"}
+{"id":"36","name":"San Diego","type":"Light Cruiser","rarity":"Super Rare","nation":"Eagle Union","_id":"EnnhfjtPTK56ILol"}
+{"id":"37","name":"Cleveland","type":"Light Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"8tCFVbkf2PE2Wtcz"}
+{"id":"38","name":"Columbia","type":"Light Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"DqT5zlyRS8MaFuiD"}
+{"id":"39","name":"Pensacola","type":"Heavy Cruiser","rarity":"Normal","nation":"Eagle Union","_id":"vsjGpI4tvhQUGCFV"}
+{"id":"40","name":"Salt Lake City","type":"Heavy Cruiser","rarity":"Normal","nation":"Eagle Union","_id":"NHX2my397VlykF8P"}
+{"id":"41","name":"Northampton","type":"Heavy Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"lH4EkQtPuSZwLlPF"}
+{"id":"42","name":"Chicago","type":"Heavy Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"wEdSH3ZJDeHAyGEv"}
+{"id":"43","name":"Houston","type":"Heavy Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"A0BsVV5WADLjCCgL"}
+{"id":"44","name":"Portland","type":"Heavy Cruiser","rarity":"Rare","nation":"Eagle Union","_id":"i3M8CT1bRiGTPB1k"}
+{"id":"45","name":"Indianapolis","type":"Heavy Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"6zugKlKJvp3lRmXF"}
+{"id":"46","name":"Astoria","type":"Heavy Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"B5hj6VsQHkTCg4xk"}
+{"id":"47","name":"Quincy","type":"Heavy Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"FveN5ZR4zx241clL"}
+{"id":"48","name":"Vincennes","type":"Heavy Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"ryEtzQ0x8WkW5UXZ"}
+{"id":"49","name":"Wichita","type":"Heavy Cruiser","rarity":"Elite","nation":"Eagle Union","_id":"JE5lz7N3UksQHU6C"}
+{"id":"52","name":"Nevada","type":"Battleship","rarity":"Normal","nation":"Eagle Union","_id":"EMx94FyHoVPLnxip"}
+{"id":"53","name":"Oklahoma","type":"Battleship","rarity":"Normal","nation":"Eagle Union","_id":"oFTEM1igSengFzjj"}
+{"id":"54","name":"Pennsylvania","type":"Battleship","rarity":"Rare","nation":"Eagle Union","_id":"tJtvQtOVetUifKXy"}
+{"id":"55","name":"Arizona","type":"Battleship","rarity":"Elite","nation":"Eagle Union","_id":"CNUoslFXVylwbSud"}
+{"id":"58","name":"Tennessee","type":"Battleship","rarity":"Rare","nation":"Eagle Union","_id":"pFbvp0ZqRn4vqrDc"}
+{"id":"59","name":"California","type":"Battleship","rarity":"Rare","nation":"Eagle Union","_id":"Ugr7cD1puD0kIwYi"}
+{"id":"60","name":"Colorado","type":"Battleship","rarity":"Elite","nation":"Eagle Union","_id":"Y8gUomuYt3DRJJFt"}
+{"id":"61","name":"Maryland","type":"Battleship","rarity":"Elite","nation":"Eagle Union","_id":"0wDNgwBlmA561eQY"}
+{"id":"62","name":"West Virginia","type":"Battleship","rarity":"Elite","nation":"Eagle Union","_id":"pHBoCwLUOxCgvtQq"}
+{"id":"63","name":"North Carolina","type":"Battleship","rarity":"Super Rare","nation":"Eagle Union","_id":"3Il9AdAg0rSd1ykR"}
+{"id":"64","name":"Washington","type":"Battleship","rarity":"Super Rare","nation":"Eagle Union","_id":"kev3YsMU6QyUKj2r"}
+{"id":"65","name":"South Dakota","type":"Battleship","rarity":"Super Rare","nation":"Eagle Union","_id":"wxXqtGoFlD9WxRlS"}
+{"id":"70","name":"Long Island","type":"Light Aircraft Carrier","rarity":"Rare","nation":"Eagle Union","_id":"EchMPgyUP9nrKD9n"}
+{"id":"71","name":"Bogue","type":"Light Aircraft Carrier","rarity":"Normal","nation":"Eagle Union","_id":"eo11WHZVLJ4D1EUe"}
+{"id":"72","name":"Langley","type":"Light Aircraft Carrier","rarity":"Normal","nation":"Eagle Union","_id":"Jly0F2khyd7NDtOR"}
+{"id":"73","name":"Lexington","type":"Aircraft Carrier","rarity":"Elite","nation":"Eagle Union","_id":"qJlxdrLygPJdFxX5"}
+{"id":"74","name":"Saratoga","type":"Aircraft Carrier","rarity":"Elite","nation":"Eagle Union","_id":"Bq4aBSHkVdoWLLEr"}
+{"id":"75","name":"Ranger","type":"Light Aircraft Carrier","rarity":"Normal","nation":"Eagle Union","_id":"2m89VMCBfJ5Wphjj"}
+{"id":"76","name":"Yorktown","type":"Aircraft Carrier","rarity":"Elite","nation":"Eagle Union","_id":"vpjGYNRvIlw323Nv"}
+{"id":"77","name":"Enterprise","type":"Aircraft Carrier","rarity":"Super Rare","nation":"Eagle Union","_id":"cN5O3RxjQoU1jUBo"}
+{"id":"78","name":"Hornet","type":"Aircraft Carrier","rarity":"Elite","nation":"Eagle Union","_id":"RKVX2POklnTPkABu"}
+{"id":"79","name":"Wasp","type":"Aircraft Carrier","rarity":"Rare","nation":"Eagle Union","_id":"lL0XRKdYqWjFdPFk"}
+{"id":"80","name":"Vestal","type":"Repair Ship","rarity":"Elite","nation":"Eagle Union","_id":"KEO8RCywvwPnMFrN"}
