@@ -11,8 +11,12 @@
   <body>
    <script>
       async function Click() {
-        const x = 10; const y = 20;
-        const data = { x, y };
+        const id = document.getElementById('id').value;
+        const name = document.getElementById('name').value;
+        const type = document.getElementById('type').value;
+        const rarity = document.getElementById('rarity').value;
+        const nation = document.getElementById('nation').value;
+        const data = { id, name, type, rarity, nation };
         const options = {
           method: 'POST',
           headers: {
@@ -20,12 +24,18 @@
           },
           body: JSON.stringify(data)
         };
-        const responseJSON = await fetch('/api', options);
+        const responseJSON = await fetch('/saveship', options);
         const response = await responseJSON.json();
         console.log(response);
+        document.getElementById('id').focus();
       }
     </script>
     <h1>Azur Lane</h1>
+    <input type="text" placeholder="Id" id="id"/><br>
+    <input type="text" placeholder="Name" id="name"/><br>
+    <input type="text" placeholder="Type" id="type"/><br>
+    <input type="text" placeholder="Rarity" id="rarity"/><br>
+    <input type="text" placeholder="Nation" id="nation"/><br>
     <input type="button" onClick="Click()" value="Fetch"/>
   </body>
 
