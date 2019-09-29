@@ -4,13 +4,29 @@
   <head>
     <meta charset="utf-8"/>
     <title>Azur Lane</title>
+    
+    
   </head>
   
   <body>
-    <script>
-      
+   <script>
+      async function Click() {
+        const x = 10; const y = 20;
+        const data = { x, y };
+        const options = {
+          method: 'POST',
+          headers: {
+            'Content-Type' : 'application/json'
+          },
+          body: JSON.stringify(data)
+        };
+        const responseJSON = await fetch('/api', options);
+        const response = await responseJSON.json();
+        console.log(response);
+      }
     </script>
     <h1>Azur Lane</h1>
+    <input type="button" onClick="Click()" value="Fetch"/>
   </body>
 
 </html>
