@@ -1,6 +1,6 @@
 # KurutsuKaren's Azur Lane webpage repository
 
-This is the repository of my Azur Lane webpage. This page will contain the ship droprates on every ***story mode*** map. Once finished, I'll maybe add more utilities such as a Power calculator for ships.
+This is the repository of my Azur Lane webpage ***CURRENTLY NOT HOSTED ANYWHERE***. This page will contain the ship droprates on every ***story mode*** map. Once finished, I'll maybe add more utilities such as a Power calculator for ships.
 
 ## Language and packs
 
