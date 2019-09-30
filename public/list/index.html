@@ -1,10 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ship List</title>
+    <!--<script type="text/javascript" src="index.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+  </head>
+  
+  <body>
+    <div id="main-title-div">
+      <h1 id="main-title">Ship List</h1>
+    </div>
+    <div id="ships">
+      
+    </div>
+    
+    <script>
+      addShip();
+      function addShip() {
+        var ship_content = document.createElement('div');
+        ship_content.className = 'ship-content';
+        document.getElementById('ships').appendChild(ship_content);
 
-	<head>
-		<title>Ship list</title>
-	</head>
-	<body>
-		<h1>Ship list</h1>
-	</body>
+        var frame = document.createElement('div');
+        frame.className = 'frame';
+        ship_content.appendChild(frame);
+
+        var img = document.createElement('IMG');
+        img.src = "19.png";
+        img.className = 'icon';
+        frame.appendChild(img);
+
+        var name_type_nation = document.createElement('div');
+        name_type_nation.className = 'name-type-nation';
+        ship_content.appendChild(name_type_nation);
+
+        var ntn1 = document.createElement('div');
+        var ntn2 = document.createElement('div');
+        var ntn3 = document.createElement('div');
+        ntn1.className = 'ntn';
+        ntn2.className = 'ntn';
+        ntn3.className = 'ntn';
+        name_type_nation.appendChild(ntn1);
+        name_type_nation.appendChild(ntn2);
+        name_type_nation.appendChild(ntn3);
+
+        var ntnc1 = document.createElement('div');
+        var ntnc2 = document.createElement('div');
+        var ntnc3 = document.createElement('div');
+        ntnc1.className = 'ntn-content';
+        ntnc2.className = 'ntn-content';
+        ntnc3.className = 'ntn-content';
+        ntn1.appendChild(ntnc1);
+        ntn2.appendChild(ntnc2);
+        ntn3.appendChild(ntnc3);
+
+        var h1 = document.createElement('h3');
+        var h2 = document.createElement('h3');
+        var h3 = document.createElement('h3');
+        h1.textContent = 'USS Laffey';
+        h2.textContent = 'Destroyer';
+        h3.textContent = 'Eagle Union';
+        ntnc1.appendChild(h1);
+        ntnc2.appendChild(h2);
+        ntnc3.appendChild(h3);
+      }
+    </script>
+  </body>
 
 </html>

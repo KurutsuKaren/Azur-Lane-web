@@ -4,39 +4,20 @@
   <head>
     <meta charset="utf-8"/>
     <title>Azur Lane</title>
-    
+    <script type="text/javascript" src="index.js"></script>
     
   </head>
   
   <body>
-   <script>
-      async function Click() {
-        const id = document.getElementById('id').value;
-        const name = document.getElementById('name').value;
-        const type = document.getElementById('type').value;
-        const rarity = document.getElementById('rarity').value;
-        const nation = document.getElementById('nation').value;
-        const data = { id, name, type, rarity, nation };
-        const options = {
-          method: 'POST',
-          headers: {
-            'Content-Type' : 'application/json'
-          },
-          body: JSON.stringify(data)
-        };
-        const responseJSON = await fetch('/saveship', options);
-        const response = await responseJSON.json();
-        console.log(response);
-        document.getElementById('id').focus();
-      }
-    </script>
     <h1>Azur Lane</h1>
-    <input type="text" placeholder="Id" id="id"/><br>
-    <input type="text" placeholder="Name" id="name"/><br>
-    <input type="text" placeholder="Type" id="type"/><br>
-    <input type="text" placeholder="Rarity" id="rarity"/><br>
-    <input type="text" placeholder="Nation" id="nation"/><br>
-    <input type="button" onClick="Click()" value="Fetch"/>
+    <p><input type="text" placeholder="Id" id="id"/></p>
+    <p><input type="text" placeholder="Name" id="name"/></p>
+    <p><input type="text" placeholder="Type" id="type"/></p>
+    <p><input type="text" placeholder="Rarity" id="rarity"/></p>
+    <p><input type="text" placeholder="Nation" id="nation"/></p>
+    <p><input type="button" onClick="Click()" value="Fetch"/></p>
+    
+    <a href="list/">Ship List</a>
   </body>
 
 </html>
