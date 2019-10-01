@@ -13,6 +13,7 @@ At the moment I'm using this packages:
 
 ## To do
 
+- [ ] Simple login system to deploy in Heroku ASAP
 - [ ] Fill the ships database
 - [ ] Make the website look dope
 
