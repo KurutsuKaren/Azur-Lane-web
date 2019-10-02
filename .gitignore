@@ -1,3 +1,4 @@
 /node_modules/*
 /images/*
 ships.json
+.env
