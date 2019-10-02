@@ -1,6 +1,6 @@
 # KurutsuKaren's Azur Lane webpage repository
 
-This is the repository of my Azur Lane webpage ***CURRENTLY NOT HOSTED ANYWHERE***. This page will contain the ship droprates on every ***story mode*** map. Once finished, I'll maybe add more utilities such as a Power calculator for ships.
+This is the repository of my [Azur Lane webpage](https://azurlanekurutsukaren.herokuapp.com/) (needs a lot to do but it's deployed). This page will contain the ship droprates on every ***story mode*** map. Once finished, I'll maybe add more utilities such as a Power calculator for ships.
 
 ## Language and packs
 
@@ -13,7 +13,7 @@ At the moment I'm using this packages:
 
 ## To do
 
-- [ ] Simple login system to deploy in Heroku ASAP
+- [x] Simple login system to deploy in Heroku ASAP
 - [ ] Fill the ships database
 - [ ] Make the website look dope
 
