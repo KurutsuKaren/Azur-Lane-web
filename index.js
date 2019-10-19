@@ -26,6 +26,13 @@ app.post('/saveship', (request, response) => {
   }
 });
 
+app.post('/savedrop', (req, res) => {
+  console.log(req.body);
+  res.json({
+    response: 'success'
+  });
+});
+
 const db = new Datastore('ships.db');
 db.loadDatabase((err) => {
   if (err) {
