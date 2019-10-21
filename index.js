@@ -45,7 +45,10 @@ app.post('/savedrop', (req, res) => {
     dropdb.find(query, (err, doc) => {
       if(doc.length > 0) {
         let c = parseInt(doc[0]['count'])+1;
-        dropdb.update(query, {$set: {count:c.toString()}}, {}, (err, num) => {});
+        dropdb.update(query, {$set: {count:c.toString()}}, {}, (err, num) => {
+          console.error(err);
+          console.log(num);
+        });
         console.log('Drop updated');
       } else {
         dropdb.insert({ map:drop.map, ship:drop.ship, count:'1' });
