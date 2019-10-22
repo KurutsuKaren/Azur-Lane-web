@@ -37,7 +37,7 @@ app.post("/saveship", (request, response) => {
 app.post("/savedrop", (req, res) => {
   const drop = req.body;
   if (drop.PASS == process.env.SEND_DROP) {
-    mongodb.MongoClient.connect(uri, (err, client) => {
+    mongodb.MongoClient.connect(uri, {useUnifiedTopology: true}, (err, client) => {
       if(err) throw err;
       const db = client.db('heroku_v66tlnz6')
       const drops = db.collection('drops');
