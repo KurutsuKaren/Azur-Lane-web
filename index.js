@@ -36,7 +36,7 @@ app.post("/saveship", (request, response) => {
 
 app.post("/savedrop", (req, res) => {
   const drop = req.body;
-  if (drop.PASS == process.env.SEND_DROP) {
+  /*if (drop.PASS == process.env.SEND_DROP) {
     const query = { map: drop.map, ship: drop.ship };
     dropdb.find(query, (err, doc) => {
       if (doc.length > 0) {
@@ -59,7 +59,7 @@ app.post("/savedrop", (req, res) => {
     res.json({
       response: "Wrong password"
     });
-  }
+  }*/
   
   mongodb.MongoClient.connect(uri, (err, client) => {
     if(err) throw err;
