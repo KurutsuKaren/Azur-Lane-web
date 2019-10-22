@@ -43,7 +43,8 @@ app.post("/savedrop", (req, res) => {
       const drops = db.collection('drops');
       const query = { map: drop.map, ship: drop.ship };
       drops.find(query, (err, doc) => {
-        if (doc.length > 0) {
+        console.log(doc, err);
+        /*if (doc.length > 0) {
           let c = parseInt(doc[0]["count"]) + 1;
           drops.update(query, { $set: { count: c.toString() } }, {}, (err, num) => {});
           console.log("Drop updated");
@@ -56,7 +57,7 @@ app.post("/savedrop", (req, res) => {
           res.json({
             response: "Drop inserted"
           });
-        }
+        }*/
       });
     });
   } else {
