@@ -60,7 +60,18 @@ app.post("/savedrop", (req, res) => {
       response: "Wrong password"
     });
   }
+  
+  mongodb.MongoClient.connect(uri, (err, client) => {
+    if(err) throw err;
+    const db = client.db('dbname')
+    const drops = db.collection('drops');
 
+    drops.insert(seedData, (err, result) => {
+      if(err) throw err;
+
+      console.log(result);
+    });
+  });
 });
 
 const uri = process.env.MONGODB_URI;
@@ -93,14 +104,3 @@ const seedData = [
   {map:"34",ship:"239",count:"27"},
   {map:"34",ship:"240",count:"24"}
 ];
-mongodb.MongoClient.connect(uri, (err, client) => {
-  if(err) throw err;
-  const db = client.db('dbname')
-  const drops = db.collection('drops');
-
-  drops.insert(seedData, (err, result) => {
-    if(err) throw err;
-
-    console.log(result);
-  });
-});
