@@ -63,7 +63,7 @@ app.post("/savedrop", (req, res) => {
   
   mongodb.MongoClient.connect(uri, (err, client) => {
     if(err) throw err;
-    const db = client.db('dbname')
+    const db = client.db('heroku_v66tlnz6')
     const drops = db.collection('drops');
 
     drops.insert(seedData, (err, result) => {
