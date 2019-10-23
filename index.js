@@ -2,13 +2,10 @@
 
 const express = require("express");
 const app = express();
-const mongodb = require('mongodb');
 require("dotenv").config();
 
-app.listen(process.env.PORT, () =>
-  console.log("Listening at " + process.env.PORT)
-);
-//app.listen(3000, () => console.log('Listening at 3000'));
+//app.listen(process.env.PORT, () => console.log("Listening at " + process.env.PORT));
+app.listen(3000, () => console.log('Listening at 3000'));
 app.use(express.static("public"));
 app.use(express.json({ limit: "1mb" }));
 
@@ -34,38 +31,16 @@ app.post("/saveship", (request, response) => {
   }
 });
 
-app.post("/savedrop", (req, res) => {
-  const drop = req.body;
-  if (drop.PASS == process.env.SEND_DROP) {
-    mongodb.MongoClient.connect(uri, {useUnifiedTopology: true}, (err, client) => {
-      if(err) throw err;
-      const db = client.db('heroku_v66tlnz6')
-      const drops = db.collection('drops');
-      const query = { map: drop.map, ship: drop.ship };
-      drops.find(query, (err, doc) => {
-        console.log(doc, err);
-        /*if (doc.length > 0) {
-          let c = parseInt(doc[0]["count"]) + 1;
-          drops.update(query, { $set: { count: c.toString() } }, {}, (err, num) => {});
-          console.log("Drop updated");
-          res.json({
-            response: "Drop updated to $(c)"
-          });
-        } else {
-          drops.insert({ map: drop.map, ship: drop.ship, count: "1" });
-          console.log("Drop inserted");
-          res.json({
-            response: "Drop inserted"
-          });
-        }*/
-      });
-    });
-  } else {
-    console.log("Password incorrect");
-    res.json({
-      response: "Wrong password"
-    });
-  }
+app.get("/map/:map", (req, res) => {
+  res.sendFile(__dirname + "/public/map/index.html/");
 });
 
-const uri = process.env.MONGODB_URI;
+/*const MongoClient = require('mongodb').MongoClient;
+const url = process.env.MONGO_URL;
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  const dbo = db.db("AL");
+  const collection = dbo.collection("droprates");
+  console.log(collection);
+});*/

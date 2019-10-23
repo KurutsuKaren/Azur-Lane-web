@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: block;
+}
+.contenedor {
+  color: white;
+  display: inline-flex;
+  background: rgba(176,224,230,0.4);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px 30px 60px 60px;
+  max-height: 240px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+}
+
+.avatar {
+  border-radius: 20px 50px 20px 50px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.informacion {
+  width: 200px;
+  margin-left: 20px;
+  background:
+       linear-gradient( rgba(100,100,100,0.5), transparent),
+       linear-gradient(to top left, rgba(170,170,170,0.5), transparent),
+       linear-gradient(to top right, rgba(230,230,230,0.5), transparent);
+  background-blend-mode: screen;
+  border-radius: 50px 20px 50px 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px black;
+}
+
+.otherinfo {
+  margin: 10px;
+  line-height: normal;
+}
+
+.ship_name {
+  background: gray;
+}
+
+.ship_name p {
+  text-align: right;
+  padding: 20px 5px 5px 0px;
+}
+
+
+.ship_info {
+  display: inline-block;
+  background: violet;
+}
+
+
+.contenedorimg {
+  display: inline-block;
+  position: relative;
+}
+
+.rareza {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  border: 2px solid;
+  background: rgb(176,224,230);
+  left: 0px;
+  bottom: 0px;
+  box-shadow: 0px 0px 5px black;
+    z-index: 1;
+}
+
+.nombreavatar {
+  position: absolute;
+  height: 25px;
+  width:  190px;
+  border-radius: 100px 100px 100px 100px;
+  border: 2px solid;
+  background: rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 5px black;
+  text-align: center;
+  bottom: 0;
+  left: 9px;
+}
+#avatarname {
+}
+
+.ship_drop_ratio p {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.barra {
+  width: 50%;
+  height: 20px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.ship_others {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ship_faction, .ship_type {
+  background: rgba(255,255,255,0.2);
+  padding: 3px;
+  border-radius: 7px;
+  width: 48%;
+  box-shadow: 0px 0px 5px black;
+}
+
+.ship_faction p, .ship_type p {
+  text-align: center;
+  font-weight: bold;
+  background:  rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.others {
+  font-weight: bold;
+  display:table;
+  margin:0 auto;
+  font-size: 10px;
+  color: black;
+}
+
+#separacion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
